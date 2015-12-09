@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.himes.games.floodit"
+      android:versionName="1.0" android:versionCode="2">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
+        <activity android:name=".FloodItSplashScreen"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".FloodItMenuButtons">
+        </activity>
+        <activity android:name=".FloodItMainActivity"
+                  android:label="@string/app_name">
+        </activity>
+        <activity android:name=".preferences.About"
+                  android:label="@string/menu_about_label"
+                  android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name=".preferences.Statistics"
+                  android:label="@string/menu_statistics_label"
+                  android:theme="@android:style/Theme.Dialog">
+        </activity>
+        <activity android:name=".preferences.FloodItSettings"
+                  >
+        </activity>
+    </application>
+    <uses-sdk android:minSdkVersion="3" />
+
+</manifest> 

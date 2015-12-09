@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="difficulty_key">difficulty_key</string>
+    <string name="hello">Hello World, FloodItMainActivity!</string>
+    <string name="app_name">Flood It</string>
+    <string name="about_title">About Flood It</string>
+    <string name="about_text">Flood It is a game where the object is simply to flood\
+    the board. You do this by changing the color of the flood (which originates at the top\
+    left corner) and consuming all of your\
+    neigbhors, enveloping them in the flood. Be careful though, you\'ve only got\
+    a limited number of turns; Each level you progress, you\'ll have one fewer!\n\nEnjoy
+    </string>
+    <string name="menu_settings_label">Settings</string>
+    <string name="menu_statistics_label">Statistics</string>
+    <string name="menu_about_label">About</string>
+    <string name="statistics_boards_flooded_lbl">Number of Boards Flooded:</string>
+    <string name="statistics_highest_level_lbl">Highest Level Reached:</string>
+    <string name="statistics_average_level_lbl">Average Level:</string>
+    <string name="lose_title">Better Luck Next Time</string>
+    <string name="lose_message">You made it to level %d!\nNext time try for more...</string>
+    <string name="lose_button">Start Over</string>
+    <string name="win_title">Congratulations</string>
+    <string name="win_message">Next Level: %1$d \nMoves Used: %2$d \nMoves Left: %3$d</string>
+    <string name="win_button">Next Level</string>
+    <string name="instructions_idx">instructionIDX NEVER CHANGE</string>
+    <string name="moves_left">Moves Left : \ </string>
+    <string name="level">Level \ </string>
+    <string name="moves_left_land">Moves:</string>
+    <string name="level_land">Level:</string>
+    <string name="todo">make the splash screen already...</string>
+    <string name="level_mode_label">Play!</string>
+    <!--string name="level_mode_label">Level Mode</string-->
+    <string name="puzzle_mode_label">Puzzle Mode</string>
+    <string name="instructions_label">Instructions</string>
+    <string name="about_label">About</string>
+    <string name="difficulty_preference_title">Difficulty</string>
+    <string name="difficulty_summary">Set the size of the board</string>
+    <string-array name="difficulty_titles">
+        <item>Beginner</item>
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Difficult</item>
+    </string-array>
+    <string-array name="difficulty_values">
+        <item>3</item>
+        <item>9</item>
+        <item>15</item>
+        <item>25</item>
+    </string-array>
+    <string name="email_developer">Email Developer</string>
+</resources>
